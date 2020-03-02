@@ -1,0 +1,23 @@
+My associate id:
+844228 
+Other team members:
+844417, 844202, 844204, 844222 
+Team lead:
+844222 
+My Role in team:
+1. To develop View Appointment page and to save and retreive data from json server.
+My development files:
+1. viewAppointment.html
+2. Model for Appointment
+3. Service for Appointment
+4. package.json
+
+I was strong in:
+1. HTML5
+2. HttpClient
+3. Documentation
+I was weak in:
+1. Angular Form Validation
+Feedback:
+1. Able to read codesprint document 1 day in advance will help.
+© 2020 GitHub, Inc.

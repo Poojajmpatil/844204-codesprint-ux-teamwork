@@ -1,0 +1,14 @@
+{
+  "appointment": [
+    {
+      "empId": 0,
+      "firstName": "Meena",
+      "lastName": "Gundarapu",
+      "age": 21,
+      "mobileNumber": 9876543210,
+      "email": "meena",
+      "address": "Bengaluru",
+      "id": 9
+    }
+  ]
+}

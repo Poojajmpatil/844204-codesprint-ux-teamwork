@@ -1,0 +1,26 @@
+<div class="container-fluid">
+<h2>Appointments List</h2>
+
+<a routerLink="place">Add Appointment</a>
+<p *ngIf="!emps && !errMsg">Please wait its loading....</p>
+<p *ngIf="errMsg">{{errMsg}}</p>
+
+<table  cellspacing=10 class="table-bordered table-striped" *ngIf="emps">
+    <thead>
+        <tr>
+        <th class="col-lg-3">Name</th>
+        <th class="col-lg-3"> Mobile</th>
+        <th class="col-lg-3">Email</th>
+        <th class="col-lg-3">Address</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of emps">
+            <td>{{e.firstName | uppercase}} {{e.lastName  | uppercase}}</td>
+            <td>{{e.mobileNumber}}</td>
+            <td>{{e.email}}</td>
+            <td>{{e.address}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
